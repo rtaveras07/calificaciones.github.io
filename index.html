@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>POLITECNICO VICENTE AQUILINO SANTOS</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <img src="./logopoli.png" alt="Logo" style="display: block; margin: 0 auto; width: 150px;">
+    <center>
+        <h3>POLITECNICO VICENTE AQUILINO SANTOS</h3>
+    </center>
+    <center>
+        <p>Educamos y formamos Técnicos para la Vida</p>
+    </center>
+    <center>
+        <p>Boletín de Digital de Calificaciones Año lectivo 2024-2025</p>
+    </center>
+
+    <div class="input-section" style="text-align: center;">
+        <input type="text" id="studentIdInput" placeholder="Ingrese el ID del estudiante">
+        <button onclick="fetchStudentData()">Buscar Estudiante</button>
+    </div>
+
+    <div id="student-info"></div>
+
+    <div id="academicSubjects" class="hidden" style="text-align: center;">
+        <h3>Asignaturas Academicas</h3>
+        <table>
+            <thead id="gradesHeader"></thead>
+            <tbody id="gradesBody"></tbody>
+        </table>
+        <h3>Modulos Técnicos</h3>
+        <table>
+            <thead id="modulosHeader"></thead>
+            <tbody id="modulosBody"></tbody>
+        </table>
+    </div>
+    
+    <!-- Sección de leyenda centrada con borde -->
+    <div id="leyenda-section" style="text-align: center; margin-top: 20px; border: 2px solid black; padding: 10px; width: 50%; margin-left: auto; margin-right: auto; display: none;">
+        <h4>Observaciones:</h4>
+        <p id="leyenda-content" style="color: red; font-weight: bold; font-size: 1em;"></p>
+    </div>
+
+    <script src="scripts.js"></script>
+</body>
+</html>

@@ -1,0 +1,35 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+table {
+    margin: 20px auto; /* Centra la tabla horizontalmente */
+    border-collapse: collapse;
+    width: 80%; /* Ajusta el tamaño de la tabla */
+}
+
+th, td {
+    border: 1px solid black;
+    padding: 10px;
+    text-align: center; /* Centra el texto dentro de las celdas */
+}
+
+thead {
+    background-color: #f2f2f2;
+}
+
+.input-section {
+    margin: 20px 0;
+}
+
+button {
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
